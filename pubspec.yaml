@@ -1,0 +1,21 @@
+name: simple_todo
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.13.0 <3.0.0'
+
+dependencies:
+  cupertino_icons: ^1.0.3
+  flutter:
+    sdk: flutter
+  path: ^1.8.0
+  sqflite: ^2.0.0+3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
